@@ -34,8 +34,16 @@ body {
 
 .navlist-item {
   display: inline;
-  margin-right: 32px;
+  margin-right: 28px;
   cursor: pointer;
+}
+
+.navlist-item:nth-child(4) {
+  margin-right: 25px;
+}
+
+.navlist-item:nth-child(3) {
+  margin-right: 25px;
 }
 
 .navlist-item:hover {
@@ -58,21 +66,50 @@ body {
 }
 
 .iphones {
-  min-height: 599px;
+  min-height: 594px;
   background-color: #f06c64;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  align-items: flex-start;
+  justify-content: flex-start;
   margin-bottom: 5px;
   box-shadow: 0 5px 0 0 #ea676b;
 }
 
+.iphones__chev {
+  cursor: pointer;
+}
+
+.iphones__chev:hover {
+  opacity: 0.5;
+}
+
+.iphones__chev-left {
+  margin-top: 280px;
+  margin-left: 42px;
+}
+
+.iphones__phone-1 {
+  margin-top: 49px;
+  margin-left: 52px;
+}
+
+.iphones__phone-2 {
+  margin-top: 170px;
+  margin-left: 70px;
+}
+
+.iphones__chev-right {
+  margin-top: 280px;
+  margin-left: 51px;
+}
+
 .main-container {
   width: 940px;
+  padding-bottom: 35px;
   margin-top: 65px;
   margin-left: 40px;
   margin-right: 40px;
-  margin-bottom: 65px;
+  margin-bottom: 5px;
 }
 
 .main-container h1 {
@@ -89,7 +126,7 @@ body {
   color: #767e9e;
   font-weight: 300;
   text-align: left;
-  margin: 35px 0 50px 0;
+  margin: 16px 0 45px 0;
 }
 
 .features {
@@ -103,7 +140,7 @@ body {
 .features-item {
   width: 300px;
   margin-right: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 27px;
   padding: 0;
   display: flex;
 }
@@ -113,6 +150,7 @@ body {
 }
 
 .features-item_icon {
+  margin-top: 2px;
   margin-right: 20px;
 }
 
@@ -130,5 +168,5 @@ body {
   color: #767e9e;
   font-weight: 400;
   text-align: justify;
-  margin: 18px 0 0 0;
+  margin: 7px 0 0 0;
 }
