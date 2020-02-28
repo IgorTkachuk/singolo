@@ -1,0 +1,147 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  background-color: #282828;
+}
+
+.container {
+  width: 1020px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.portfolio {
+  background-color: #2d303a;
+  padding: 67px 40px;
+}
+
+.portfolio__header {
+  margin: 0 0;
+  font-size: 30px;
+  font-weight: 900;
+  color: #666d89;
+}
+
+.portfolio__description {
+  font-size: 18px;
+  font-weight: 300;
+  color: #767e9e;
+  margin: 34px 0 0 0;
+}
+
+.portfolio__tags {
+  list-style: none;
+  margin: 0;
+  margin-top: 17px;
+  padding: 0;
+  display: flex;
+}
+
+.portfolio__tags-item {
+  font-size: 12px;
+  font-weight: 400;
+  /* line-height: 22px; */
+  color: #767e9e;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #666d89;
+}
+
+.portfolio__tags-item_selected {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.portfolio-galery {
+  padding: 0;
+  margin: 0;
+  margin-top: 19px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-galery__item {
+  margin: 0 20px 20px 0;
+}
+
+.portfolio-galery__item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.portfolio-galery__item:nth-child(n + 8) {
+  margin-bottom: 0;
+}
+
+.portfolio-galery__item:nth-child(n + 13) {
+  display: none;
+}
+
+.about-us {
+  background-color: #f2f2f2;
+  padding: 67px 40px;
+}
+
+.about-us__header {
+  margin: 0 0;
+  font-size: 30px;
+  font-weight: 900;
+  color: #666d89;
+}
+
+.about-us__description {
+  font-size: 18px;
+  font-weight: 300;
+  color: #767e9e;
+  margin: 34px 0 0 0;
+}
+
+.about-us__personal {
+  list-style: none;
+  margin: 0;
+  margin-top: 55px;
+  padding: 0;
+  display: flex;
+}
+
+.about-us__personal-item {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 302px;
+  margin-right: 20px;
+}
+
+.about-us__personal-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.about-us__personal-name {
+  margin: 0;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #666d89;
+  font-weight: 900;
+}
+
+.about-us__personal-description {
+  margin: 0;
+  margin-top: 18px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #767e9e;
+}
+
+.social-media {
+  list-style: none;
+  margin: 0;
+  margin-top: 30px;
+  padding: 0;
+  display: flex;
+}
+
+.social-media__item {
+  margin-right: 8px;
+}
