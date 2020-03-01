@@ -13,7 +13,8 @@ body {
 
 .portfolio {
   background-color: #2d303a;
-  padding: 67px 40px;
+  padding: 60px 40px;
+  border-bottom: 9px solid #323746;
 }
 
 .portfolio__header {
@@ -27,13 +28,13 @@ body {
   font-size: 18px;
   font-weight: 300;
   color: #767e9e;
-  margin: 34px 0 0 0;
+  margin: 21px 0 0 0;
 }
 
 .portfolio__tags {
   list-style: none;
   margin: 0;
-  margin-top: 17px;
+  margin-top: 16px;
   padding: 0;
   display: flex;
 }
@@ -43,7 +44,7 @@ body {
   font-weight: 400;
   /* line-height: 22px; */
   color: #767e9e;
-  padding: 5px;
+  padding: 2px 6px;
   margin-right: 10px;
   border-radius: 5px;
   border: 1px solid #666d89;
@@ -64,7 +65,7 @@ body {
 }
 
 .portfolio-galery__item {
-  margin: 0 20px 20px 0;
+  margin: 0 20px 18px 0;
 }
 
 .portfolio-galery__item:nth-child(4n) {
@@ -81,7 +82,8 @@ body {
 
 .about-us {
   background-color: #f2f2f2;
-  padding: 67px 40px;
+  padding: 60px 40px;
+  border-bottom: 6px solid #ffffff;
 }
 
 .about-us__header {
@@ -95,13 +97,14 @@ body {
   font-size: 18px;
   font-weight: 300;
   color: #767e9e;
-  margin: 34px 0 0 0;
+  margin: 18px 0 0 0;
+  line-height: 30px;
 }
 
 .about-us__personal {
   list-style: none;
   margin: 0;
-  margin-top: 55px;
+  margin-top: 45px;
   padding: 0;
   display: flex;
 }
@@ -110,7 +113,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-basis: 302px;
-  margin-right: 20px;
+  margin-right: 17px;
 }
 
 .about-us__personal-item:nth-child(3n) {
@@ -119,7 +122,7 @@ body {
 
 .about-us__personal-name {
   margin: 0;
-  margin-top: 20px;
+  margin-top: 12px;
   font-size: 18px;
   color: #666d89;
   font-weight: 900;
@@ -127,7 +130,7 @@ body {
 
 .about-us__personal-description {
   margin: 0;
-  margin-top: 18px;
+  margin-top: 8px;
   font-size: 12px;
   font-weight: 400;
   line-height: 22px;
@@ -137,11 +140,11 @@ body {
 .social-media {
   list-style: none;
   margin: 0;
-  margin-top: 30px;
+  margin-top: 22px;
   padding: 0;
   display: flex;
 }
 
 .social-media__item {
-  margin-right: 8px;
+  margin-right: 6px;
 }
