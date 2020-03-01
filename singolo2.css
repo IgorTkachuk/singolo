@@ -39,18 +39,22 @@ body {
   display: flex;
 }
 
-.portfolio__tags-item {
+.portfolio__tags-item a {
   font-size: 12px;
   font-weight: 400;
-  /* line-height: 22px; */
   color: #767e9e;
   padding: 2px 6px;
   margin-right: 10px;
   border-radius: 5px;
   border: 1px solid #666d89;
+  text-decoration: none;
 }
 
-.portfolio__tags-item_selected {
+.portfolio__tags-item a:hover {
+  color: #a5d328;
+}
+
+.portfolio__tags-item_selected a {
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -58,7 +62,7 @@ body {
 .portfolio-galery {
   padding: 0;
   margin: 0;
-  margin-top: 19px;
+  margin-top: 22px;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -147,4 +151,15 @@ body {
 
 .social-media__item {
   margin-right: 6px;
+  border-radius: 50%;
+}
+
+.social-media__item a {
+  display: block;
+  width: 34px;
+  height: 34px;
+}
+
+.social-media__item:hover {
+  background-color: #a5d328;
 }
