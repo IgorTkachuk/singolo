@@ -34,7 +34,8 @@ body {
 .portfolio__tags {
   list-style: none;
   margin: 0;
-  margin-top: 16px;
+  margin-top: 15px;
+  margin-left: 2px;
   padding: 0;
   display: flex;
 }
@@ -103,6 +104,7 @@ body {
   color: #767e9e;
   margin: 18px 0 0 0;
   line-height: 30px;
+  letter-spacing: 0.009rem;
 }
 
 .about-us__personal {
@@ -143,6 +145,18 @@ body {
   font-weight: 400;
   line-height: 22px;
   color: #767e9e;
+}
+
+.about-us__personal-item:first-child .about-us__personal-description {
+  letter-spacing: -0.004rem;
+}
+
+.about-us__personal-item:nth-child(2) .about-us__personal-description {
+  letter-spacing: 0.008rem;
+}
+
+.about-us__personal-item:last-child .about-us__personal-description {
+  letter-spacing: 0.009rem;
 }
 
 .social-media {
