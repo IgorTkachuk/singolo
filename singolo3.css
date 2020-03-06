@@ -1,0 +1,152 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  background-color: #282828;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.container {
+  width: 1020px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.get-a-quote {
+  background-color: #f06c64;
+  padding: 60px 40px;
+  border-bottom: 9px solid #ea676b;
+}
+
+.get-a-quote__header {
+  margin: 0 0;
+  font-size: 30px;
+  font-weight: 900;
+  color: #f0d8d9;
+}
+
+.get-a-quote__description {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #f0d8d9;
+  margin: 21px 0 0 0;
+}
+
+.contact-info__header {
+  font-size: 18px;
+  color: #f0d8d9;
+  font-weight: 900;
+}
+
+.contact-info__description {
+  font-size: 12px;
+  line-height: 22px;
+  color: #f0d8d9;
+  font-weight: 400;
+}
+
+.get-a-quote__content {
+  display: flex;
+  justify-items: flex-start;
+  margin-top: 50px;
+}
+
+.get-a-quote__form {
+  /* display: inline-block; */
+  width: 616px;
+  margin-right: 20px;
+}
+
+.get-a-quote__form input {
+  display: block;
+  width: 616px;
+  height: 38px;
+  border: none;
+  border-radius: 5px;
+  background-color: #d6564f;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+.get-a-quote__form input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 12px;
+  color: #f48c8f;
+  font-family: "Lato";
+  font-weight: 400;
+}
+
+.get-a-quote__form textarea::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 12px;
+  color: #f48c8f;
+  font-family: "Lato";
+  font-weight: 400;
+}
+
+.get-a-quote__form input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: pink;
+}
+
+.get-a-quote__form textarea {
+  display: block;
+  width: 616px;
+  height: 200px;
+  border: none;
+  border-radius: 5px;
+  background-color: #d6564f;
+  padding: 10px 0 0 10px;
+}
+
+.contact-info {
+  width: 300px;
+}
+
+.contact-info__header {
+  margin: 0;
+}
+
+.contact-info__list {
+  padding: 0;
+  margin: 0;
+  margin-top: 30px;
+  list-style: none;
+}
+
+.contact-info__list-item {
+  font-size: 12px;
+  color: #f0d8d9;
+}
+
+.contact-info__list-item_addr::before {
+  background: url("assets/ico-location-pin.svg");
+}
+
+.contact-info__list-item_phone::before {
+  background: url("assets/ico-phone-contacts.svg");
+}
+
+.contact-info__list-item_email::before {
+  background: url("assets/ico-mail.svg");
+}
+
+.contact-info__list-item::before {
+  content: "";
+  background-size: 15px auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
