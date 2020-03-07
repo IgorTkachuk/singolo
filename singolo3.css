@@ -38,6 +38,7 @@ body {
   line-height: 30px;
   color: #f0d8d9;
   margin: 18px 0 0 0;
+  text-align: justify;
 }
 
 .contact-info__header {
@@ -51,6 +52,7 @@ body {
   line-height: 22px;
   color: #f0d8d9;
   font-weight: 400;
+  text-align: justify;
 }
 
 .get-a-quote__content {
@@ -119,6 +121,7 @@ body {
   margin: 0;
   margin-top: 5px;
   letter-spacing: -0.009rem;
+  text-align: justify;
 }
 
 .contact-info__list {
@@ -143,6 +146,12 @@ body {
 
 .contact-info__list-item_email::before {
   background: url("assets/ico-mail.svg");
+}
+
+.contact-info__list-item a {
+  font-size: 12px;
+  color: #f0d8d9;
+  text-decoration: none;
 }
 
 .contact-info__list-item::before {
