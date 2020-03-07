@@ -21,8 +21,8 @@ body {
 
 .get-a-quote {
   background-color: #f06c64;
-  padding: 60px 40px;
-  border-bottom: 9px solid #ea676b;
+  padding: 60px 40px 68px 40px;
+  border-bottom: 5px solid #ea676b;
 }
 
 .get-a-quote__header {
@@ -37,7 +37,7 @@ body {
   font-weight: 300;
   line-height: 30px;
   color: #f0d8d9;
-  margin: 21px 0 0 0;
+  margin: 18px 0 0 0;
 }
 
 .contact-info__header {
@@ -56,24 +56,24 @@ body {
 .get-a-quote__content {
   display: flex;
   justify-items: flex-start;
-  margin-top: 50px;
+  margin-top: 43px;
 }
 
 .get-a-quote__form {
   /* display: inline-block; */
   width: 616px;
-  margin-right: 20px;
+  margin-right: 24px;
 }
 
 .get-a-quote__form input {
   display: block;
-  width: 616px;
-  height: 38px;
+  width: 605px;
+  height: 36px;
   border: none;
   border-radius: 5px;
   background-color: #d6564f;
-  margin-bottom: 15px;
-  padding-left: 10px;
+  margin-bottom: 16px;
+  padding-left: 14px;
 }
 
 .get-a-quote__form input::-webkit-input-placeholder {
@@ -99,12 +99,12 @@ body {
 
 .get-a-quote__form textarea {
   display: block;
-  width: 616px;
-  height: 200px;
+  width: 605px;
+  height: 192px;
   border: none;
   border-radius: 5px;
   background-color: #d6564f;
-  padding: 10px 0 0 10px;
+  padding: 10px 0 0 14px;
 }
 
 .contact-info {
@@ -115,10 +115,16 @@ body {
   margin: 0;
 }
 
+.contact-info__description {
+  margin: 0;
+  margin-top: 5px;
+  letter-spacing: -0.009rem;
+}
+
 .contact-info__list {
   padding: 0;
   margin: 0;
-  margin-top: 30px;
+  margin-top: 21px;
   list-style: none;
 }
 
@@ -145,8 +151,45 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  width: 22px;
+  width: 15px;
   height: 22px;
   vertical-align: middle;
   margin-right: 5px;
+}
+
+.get-a-quote__footer {
+  display: flex;
+  justify-content: space-between;
+  height: 76px;
+  background-color: #2d303a;
+}
+
+.get-a-quote__footer-copyright {
+  font-size: 12px;
+  line-height: 76px;
+  color: #666d89;
+  margin-left: 42px;
+}
+
+.get-a-quote__footer .social-media {
+  list-style: none;
+  margin-right: 33px;
+  margin-top: 20px;
+  padding: 0;
+  display: flex;
+}
+
+.social-media__item {
+  margin-right: 6px;
+  border-radius: 50%;
+}
+
+.social-media__item a {
+  display: block;
+  width: 34px;
+  height: 34px;
+}
+
+.social-media__item:hover {
+  background-color: #a5d328;
 }
