@@ -171,6 +171,8 @@ body {
   font-weight: 400;
   text-align: justify;
   margin: 7px 0 0 0;
+  height: 66px;
+  overflow: hidden;
 }
 
 /* START Singolo part two stylesheet */
