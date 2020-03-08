@@ -362,7 +362,7 @@ body {
 
 .get-a-quote {
   background-color: #f06c64;
-  padding: 60px 40px 68px 40px;
+  padding: 60px 40px 1px 40px;
   border-bottom: 5px solid #ea676b;
 }
 
@@ -448,6 +448,13 @@ body {
   border-radius: 5px;
   background-color: #d6564f;
   padding: 10px 0 0 14px;
+}
+.get-a-quote__form input[type="submit"] {
+  margin-top: 16px;
+  width: 100px;
+  color: #f0d8d9;
+  padding: 0;
+  box-shadow: 2px 2px 2px 0px #000000;
 }
 
 .contact-info {

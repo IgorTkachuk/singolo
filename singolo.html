@@ -238,7 +238,7 @@
         odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
       </p>
       <div class="get-a-quote__content">
-        <form action="#" class="get-a-quote__form">
+        <form action="#" class="get-a-quote__form" method="POST">
           <label for="id" class="visually-hidden">Name</label>
           <input type="text" name="name" id="name" placeholder="Name (Required)" required />
           <label for="email" class="visually-hidden">Email</label>
@@ -247,6 +247,7 @@
           <input type="text" name="subject" id="subject" placeholder="Subject" />
           <label for="quote" class="visually-hidden">Describe you project in detail...</label>
           <textarea name="quote" id="quote" cols="30" rows="10" placeholder="Describe your project in detail..."></textarea>
+          <input type="submit" value="Submit" />
         </form>
         <div class="contact-info">
           <h3 class="contact-info__header">Contact Information</h3>
